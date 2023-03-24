@@ -1,1 +1,3 @@
 /dscan_result/data/sim_hash_result.csv
+/dscan_result/saved_dict/*
+/dscan_result/log/*
