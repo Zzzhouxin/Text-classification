@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="xiaowei_2machine@10.26.52.2:22" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="xiaowei_2machine@10.26.52.2:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/xiaowei_2machine/zhouxin/Text classification" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
