@@ -2,3 +2,6 @@
 /dscan_result/data/train.csv
 /dscan_result/saved_dict/*
 /dscan_result/log/*
+*.pyc
+.idea/misc.xml
+.idea/Text classification.iml
