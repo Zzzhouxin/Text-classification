@@ -1,4 +1,5 @@
 # coding: UTF-8
+import pickle
 import time
 import torch
 import numpy as np
@@ -50,3 +51,6 @@ if __name__ == '__main__':
         init_network(model)
     print(model.parameters)
     train(config, model, train_iter, dev_iter, test_iter)
+
+    with open('dscan_result/saved_dict/models.pkl', 'wb') as f:
+        pickle.dump(model, f)

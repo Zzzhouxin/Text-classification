@@ -10,9 +10,9 @@ class Config(object):
     """配置参数"""
     def __init__(self, dataset, embedding):
         self.model_name = 'Transformer'
-        self.train_path = dataset + '/data/train.csv'                                # 训练集
-        self.dev_path = dataset + '/data/val.csv'                                    # 验证集
-        self.test_path = dataset + '/data/test.csv'                                  # 测试集
+        self.train_path = dataset + '/data/train.txt'                                # 训练集
+        self.dev_path = dataset + '/data/val.txt'                                    # 验证集
+        self.test_path = dataset + '/data/test.txt'                                  # 测试集
         self.class_list = [x.strip() for x in open(
             dataset + '/data/class.txt', encoding='utf-8').readlines()]              # 类别名单
         self.vocab_path = dataset + '/data/vocab.pkl'                                # 词表
